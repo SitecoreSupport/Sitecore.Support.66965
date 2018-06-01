@@ -50,7 +50,16 @@
       <HintPath>..\packages\WFFM.Sitecore.Forms.Core.8.2.1\lib\Sitecore.Forms.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Sitecore.WFFM.Abstractions, Version=8.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WFFM.Sitecore.WFFM.Abstractions.8.2.1\lib\Sitecore.WFFM.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.WFFM.Analytics, Version=8.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WFFM.Sitecore.WFFM.Analytics.8.2.1\lib\Sitecore.WFFM.Analytics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -58,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WFFM\Analytics\Providers\SqlFormsDataProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.66965.config" />
